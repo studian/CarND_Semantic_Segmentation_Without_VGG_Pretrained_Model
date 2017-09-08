@@ -1,0 +1,38 @@
+name: fcns
+channels:
+- defaults
+dependencies:
+- libgfortran=3.0.0=1
+- mkl=2017.0.3=0
+- openssl=1.0.2l=0
+- pip=9.0.1=py35_1
+- python=3.5.0=1
+- readline=6.2=2
+- setuptools=27.2.0=py35_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py35_0
+- xz=5.0.5=1
+- zlib=1.2.11=0
+- pip:
+  - backports.weakref==1.0rc1
+  - bleach==1.5.0
+  - certifi==2017.4.17
+  - chardet==3.0.4
+  - gym==0.9.1
+  - html5lib==0.9999999
+  - idna==2.5
+  - markdown==2.2.0
+  - numpy==1.13.1
+  - olefile==0.44
+  - pillow==4.2.1
+  - protobuf==3.4.0
+  - pyglet==1.2.4
+  - requests==2.17.3
+  - scipy==0.17.0
+  - six==1.10.0
+  - tensorflow-gpu==1.0.0
+  - tensorflow-tensorboard==0.1.5
+  - tqdm==4.15.0
+  - urllib3==1.21.1
+  - werkzeug==0.12.2
